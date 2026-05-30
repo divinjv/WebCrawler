@@ -1,2 +1,18 @@
 # WebCrawler
 Crawls the Website and finds all the urls for that particular site domain
+
+# Setup
+We need maven installed in the system and java 17
+=> brew install maven
+
+# Compile and Run
+We can compile the files using following command:
+=> mvn compile
+
+To execute it we use following command:
+=> mvn exec:java -Dexec.args="https://www.scrapethissite.com/"
+
+The example output:
+=> 
+[https://www.scrapethissite.com/static/images/scraper-icon.png, https://www.scrapethissite.com/static/css/styles.css, https://www.scrapethissite.com/, https://www.scrapethissite.com/pages/, https://www.scrapethissite.com/login/, https://www.scrapethissite.com/pages/simple/, https://www.scrapethissite.com/pages/forms/, https://www.scrapethissite.com/pages/ajax-javascript/, https://www.scrapethissite.com/pages/frames/, https://www.scrapethissite.com/pages/advanced/, https://www.scrapethissite.com/pages/forms/?page_num=1, https://www.scrapethissite.com/pages/forms/?page_num=2, https://www.scrapethissite.com/pages/forms/?page_num=3, https://www.scrapethissite.com/pages/forms/?page_num=4, https://www.scrapethissite.com/pages/forms/?page_num=5, https://www.scrapethissite.com/pages/forms/?page_num=6, https://www.scrapethissite.com/pages/forms/?page_num=7, https://www.scrapethissite.com/pages/forms/?page_num=8, https://www.scrapethissite.com/pages/forms/?page_num=9, https://www.scrapethissite.com/pages/forms/?page_num=10, https://www.scrapethissite.com/pages/forms/?page_num=11, https://www.scrapethissite.com/pages/forms/?page_num=12, https://www.scrapethissite.com/pages/forms/?page_num=13, https://www.scrapethissite.com/pages/forms/?page_num=14, https://www.scrapethissite.com/pages/forms/?page_num=15, https://www.scrapethissite.com/pages/forms/?page_num=16, https://www.scrapethissite.com/pages/forms/?page_num=17, https://www.scrapethissite.com/pages/forms/?page_num=18, https://www.scrapethissite.com/pages/forms/?page_num=19, https://www.scrapethissite.com/pages/forms/?page_num=20, https://www.scrapethissite.com/pages/forms/?page_num=21, https://www.scrapethissite.com/pages/forms/?page_num=22, https://www.scrapethissite.com/pages/forms/?page_num=23, https://www.scrapethissite.com/pages/forms/?page_num=24, https://www.scrapethissite.com/pages/ajax-javascript/#, https://www.scrapethissite.com/static/images/ajax-loader.gif, https://www.scrapethissite.com/pages/frames/?frame=i, https://www.scrapethissite.com/pages/advanced/?gotcha=headers, https://www.scrapethissite.com/pages/advanced/?gotcha=login, https://www.scrapethissite.com/pages/advanced/?gotcha=csrf, https://www.scrapethissite.com/pages/frames/?frame=i&family=Carettochelyidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Cheloniidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Chelydridae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Dermatemydidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Dermochelyidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Emydidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Geoemydidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Kinosternidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Platysternidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Testudinidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Trionychidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Chelidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Pelomedusidae, https://www.scrapethissite.com/pages/frames/?frame=i&family=Podocnemididae]
+
